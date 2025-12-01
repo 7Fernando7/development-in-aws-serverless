@@ -1,0 +1,16 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "Author": "Fernando Paiva",
+        "Description": "Este template cria um usuário básico no IAM com permissões limitadas.",
+        "Version": "1.0"
+    },
+    "Resources": {
+        "UserIAM": {
+            "Type": "AWS::IAM::User",
+            "Properties": {
+                "UserName": "usuario-creado-con-cloudformation"                
+            }
+        }
+    }
+}
